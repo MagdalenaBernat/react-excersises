@@ -59,7 +59,7 @@ HeaderText.propTypes = {
     price: PropTypes.number.isRequired
 };
 
-// ------------------------- Remderowanie warunkowe
+// ------------------------- Renderowanie warunkowe
 
 export const HeaderText = ({ props: HeaderTextProps }) => { // TypeScript
     const { text = "" } = props
